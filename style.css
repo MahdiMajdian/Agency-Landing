@@ -73,3 +73,28 @@ nav a {
 	border-radius: 50%;
 	width: 100%;
 }
+#team {
+	padding-top: 3.5rem;
+	width: 100%;
+}
+.team__socail {
+}
+.team__socail i {
+	font-size: 1.75rem;
+	margin: 0 0.5rem;
+}
+.team__logo {
+	height: 3rem;
+	background-color: #eee;
+}
+@media screen and (max-width: 768px) {
+	#services {
+		height: 100%;
+	}
+	#portfolio {
+		height: 100%;
+	}
+	#about {
+		height: 100%;
+	}
+}
