@@ -1,46 +1,43 @@
-*{
-    padding: 0;
-    margin: 0;
-    
+* {
+	padding: 0;
+	margin: 0;
 }
 
-nav a{
-    max-height: 5rem;
-    
+nav a {
+	max-height: 5rem;
 }
 
 .yellow-pills a,
 .yellow-pills a:hover {
-    color: #FFF !important;
+	color: #fff !important;
 }
 
 .yellow-pills a:is(.active),
 .yellow-pills a:is(.active):hover {
-    color: #FED136 !important;
-    background-color: transparent !important;
+	color: #fed136 !important;
+	background-color: transparent !important;
 }
 
-.header{
-    height: 100vh;
-    width: 100%;
-    background: url(assets/img/header-bg.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
+.header {
+	height: 100vh;
+	width: 100%;
+	background: url(assets/img/header-bg.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	z-index: -1;
 }
 
-#services{
-    height: 100vh;
-    width: 100%;
+#services {
+	height: 100vh;
+	width: 100%;
 }
-.services__box{
-    height: 15rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.services__box {
+	height: 15rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
-
 
 #portfolio {
 	padding-top: 3.5rem;
@@ -54,5 +51,25 @@ nav a{
 }
 .portfolio__box img {
 	height: 11rem;
+	width: 100%;
+}
+
+#about {
+	padding-top: 3.5rem;
+	height: 100%;
+	width: 100%;
+}
+.about__line {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translateX(-10px);
+	width: 2px;
+	height: 100%;
+	background-color: rgb(54, 54, 54);
+	z-index: -1;
+}
+.about__img img {
+	border-radius: 50%;
 	width: 100%;
 }
