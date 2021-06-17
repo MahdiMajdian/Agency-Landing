@@ -91,7 +91,7 @@ a:hover {
 	position: absolute;
 	left: 50%;
 	top: 0;
-	transform: translateX(-0.8rem);
+	transform: translateX(-50%);
 	width: 2px;
 	height: 100%;
 	background-color: #e4e4e4;
@@ -101,7 +101,7 @@ a:hover {
 	position: absolute;
 	left: 16%;
 	top: 0;
-	/* transform: translateX(-10px); */
+	transform: translateX(-50%);
 	width: 2px;
 	height: 100%;
 	background-color: #e4e4e4;
@@ -116,18 +116,33 @@ a:hover {
 	border-radius: 50%;
 	border: 0.4rem solid #e4e4e4;
 	background-color: #fed138;
-	width: 10.5rem;
-	height: 10.5rem;
+	width: 10rem;
+	
+	height: 10rem;
 }
 #team {
 	padding-top: 3.5rem;
 	width: 100%;
 }
+.team__image {
+	border: 0.4rem solid #e4e4e4;
+}
 .team__socail {
+	display: flex;
+justify-content: center;
+align-items: center;
+}
+.team__socail i{
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	margin: 0 0.5rem;
+	background: rgb(75, 75, 75);
+
 }
 .team__socail i {
-	font-size: 1.75rem;
-	margin: 0 0.5rem;
+	font-size: 1.25rem;
+	color: #fff;
 }
 .team__logo {
 	height: 3rem;
