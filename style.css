@@ -46,29 +46,40 @@ a:hover {
 	outline: none;
 }
 #services {
-	height: 100vh;
+	height: 100%;
+	padding: 5rem 0;
 	width: 100%;
 }
 .services__box {
-	height: 15rem;
+	height: 25rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
+.services__box i {
+	background-color: #FED138;
+	height: 8rem;
+	width: 8rem;
+	font-size: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
 
 #portfolio {
 	padding-top: 3.5rem;
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 	background-color: #eee;
 }
 
 .portfolio__box {
-	height: 16rem;
+	height: 24rem;
 }
 .portfolio__box img {
-	height: 11rem;
+	height: 16rem;
 	width: 100%;
 }
 
