@@ -34,12 +34,12 @@ a:hover {
 	background-position: center;
 	z-index: -1;
 }
-.header h1{
+.header h1 {
 	font-size: 5rem;
 }
-.header button{
+.header button {
 	font-size: 1.15rem;
-	background-color: #FED138;
+	background-color: #fed138;
 	border-radius: 0.25rem;
 	padding: 1rem 2rem;
 	border: none;
@@ -51,14 +51,13 @@ a:hover {
 	width: 100%;
 }
 .services__box {
-	height: 25rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 .services__box i {
-	background-color: #FED138;
+	background-color: #fed138;
 	height: 8rem;
 	width: 8rem;
 	font-size: 4rem;
@@ -95,7 +94,7 @@ a:hover {
 	transform: translateX(-0.8rem);
 	width: 2px;
 	height: 100%;
-	background-color: rgb(54, 54, 54);
+	background-color: #e4e4e4;
 	z-index: -1;
 }
 .about__line--mobile {
@@ -105,12 +104,20 @@ a:hover {
 	/* transform: translateX(-10px); */
 	width: 2px;
 	height: 100%;
-	background-color: rgb(54, 54, 54);
+	background-color: #e4e4e4;
 	z-index: -1;
 }
 .about__img img {
 	border-radius: 50%;
 	width: 100%;
+	border: 0.4rem solid #e4e4e4;
+}
+.about__img--end{
+	border-radius: 50%;
+	border: 0.4rem solid #e4e4e4;
+	background-color: #fed138;
+	width: 10.5rem;
+	height: 10.5rem;
 }
 #team {
 	padding-top: 3.5rem;
@@ -157,7 +164,7 @@ a:hover {
 	width: 100%;
 	margin: 0;
 	border-radius: 0.3rem;
-	padding:  1rem;
+	padding: 1rem;
 	outline: none;
 	border: none;
 }
