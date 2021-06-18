@@ -81,7 +81,10 @@ a:hover {
 	height: 16rem;
 	width: 100%;
 }
-
+.modal-hover:hover {
+	opacity: 0.5;
+	
+}
 #about {
 	padding-top: 3.5rem;
 	height: 100%;
@@ -112,12 +115,12 @@ a:hover {
 	width: 100%;
 	border: 0.4rem solid #e4e4e4;
 }
-.about__img--end{
+.about__img--end {
 	border-radius: 50%;
 	border: 0.4rem solid #e4e4e4;
 	background-color: #fed138;
 	width: 10rem;
-	
+
 	height: 10rem;
 }
 #team {
@@ -125,23 +128,21 @@ a:hover {
 	margin-top: 3rem;
 	width: 100%;
 	background: rgb(250, 250, 250);
-
 }
 .team__image {
 	border: 0.4rem solid #e4e4e4;
 }
 .team__socail {
 	display: flex;
-justify-content: center;
-align-items: center;
+	justify-content: center;
+	align-items: center;
 }
-.team__socail i{
+.team__socail i {
 	width: 2rem;
 	height: 2rem;
 	border-radius: 50%;
 	margin: 0 0.5rem;
 	background: rgb(75, 75, 75);
-
 }
 .team__socail i {
 	font-size: 1.25rem;
